@@ -14,7 +14,7 @@ helpers do
   end
 
   def highlight(text, term)
-    text.gsub(term, %(strong>#{term}</strong>))
+    text.gsub(term, %(<strong>#{term}</strong>))
   end
 end
 
